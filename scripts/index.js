@@ -5,17 +5,21 @@ var animData_logo = {
   autoplay: true,
   path: 'data.json'
 }
-
-
-var animation_demo = bodymovin.loadAnimation({
+var animData_demo ={
   container: document.getElementById('demo'),
   renderer: 'svg',
   loop: false,
   autoplay: true,
   path: 'data2.json'
-})
+}
 
 
 var anim_logo = bodymovin.loadAnimation(animData_logo);
+var anim_demo = bodymovin.loadAnimation(animData_demo);
 
-anim_logo.frameRate = 2;
+
+anim_logo.addEventListener("click", myFunction);
+
+function myFunction() {
+    alert ("Hello World!");
+}
