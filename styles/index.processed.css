@@ -12,6 +12,9 @@ body {
 }
 
 #demo {
+  width: 124px;
+  height: 52px;
+  position: absolute;
 }
 
 
