@@ -9,3 +9,12 @@ body {
 #capital-logo {
   width: 260px;
 }
+
+#center {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
