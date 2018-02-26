@@ -12,13 +12,13 @@ body {
 }
 
 #demo {
-  width: 62px;
-  height: 26px;
+  width: 124px;
+  height: 52px;
   position: absolute;
   zoom: 0.5;
    -moz-transform: scale(0.5);
-   margin-top: 72px;
-
+  margin-top: 72px;
+  display: flex;
 }
 
 
