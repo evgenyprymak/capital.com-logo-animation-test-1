@@ -10,6 +10,7 @@ body {
   width: 480px;
   height: 270px;
   position: absolute;
+  display: block;
 }
 
 #demo {
@@ -17,7 +18,7 @@ body {
   height: 52px;
   position: absolute;
   margin-top: 72px;
-  display: flex;
+  display: block;
 }
 
 
