@@ -8,7 +8,17 @@ body {
 
 #capital-logo {
   width: 260px;
+  position: absolute;
 }
+
+#demo {
+  width: 124px;
+  height: 52px;
+  margin-top: 72px;
+  position: absolute;
+  zoom: 0.5;
+}
+
 
 #center {
   width: 100vw;
